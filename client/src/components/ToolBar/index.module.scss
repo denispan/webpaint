@@ -1,0 +1,32 @@
+@import "../../styles/_variables.scss";
+
+.toolbar {
+  position: absolute;
+  width: 100%;
+  min-width: 640px;
+  height: $bar-height;
+  padding: 8px 32px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px gray;
+  z-index: 10;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.username {
+  max-width: 100px;
+  padding: 8px;
+  border: 1px solid lightseagreen;
+  border-radius: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 20px;
+}

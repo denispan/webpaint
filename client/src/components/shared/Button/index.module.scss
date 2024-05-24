@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 4px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: lightblue;
+}
+
+.current {
+  background-color: lightblue;
+}
